@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Helvetica;
+}
+table.dataframe {
+    border-collapse: collapse;
+    border: none;
+    background-color: lavender;
+}
+
+table.dataframe td, table.dataframe th {
+    margin: 0;
+    border: 1px solid lightgrey;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+    color: whitesmoke;
+    font-weight:bold;
+}
+table.dataframe th:not(:empty) {
+    background-color: lavender;
+    text-align: left;
+    font-weight: normal;
+}
+table.dataframe tr:nth-child(2) th:empty {
+    border-left: none;
+    border-right: 1px dashed #888;
+}
+table.dataframe th {
+    color: dimgrey;
+    font-weight: bolder;
+}
+
+table.dataframe td {
+    border: 2px solid lightgrey;
+    color: darkgrey;
+}
